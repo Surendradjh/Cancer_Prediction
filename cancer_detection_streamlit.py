@@ -12,7 +12,7 @@ exercise_frequency = st.selectbox('Exercise Frequency', ['Rarely', 'Regularly', 
 
 import pickle
 
-with open(r"C:\Users\vempa\OneDrive\Desktop\Innomatix lab\ML\Data preprocessing\Cancer Prediction\cancer_prediction.pkl",'rb') as file:
+with open(r"cancer_prediction.pkl",'rb') as file:
     model=pickle.load(file) 
 
 import pandas as pd 
